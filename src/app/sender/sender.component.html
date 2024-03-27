@@ -1,0 +1,7 @@
+<a routerLink="/receive">check receive</a>
+<form (ngSubmit)="submitData()">
+  <input type="text" [(ngModel)]="newData" name="newData">
+  <button type="submit">Submit</button>
+</form>
+
+<app-receiver></app-receiver>
